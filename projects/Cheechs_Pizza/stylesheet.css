@@ -1,0 +1,179 @@
+/*css stylesheet*/
+.heading{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 75px;
+  width: 100%;
+  background-color: #d9d9d9
+}
+
+.centered{
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.menu-bar{
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+}
+
+.home, .menu, .orderonline, .location{
+  background-color: grey;
+  color: white;
+  padding: 15px;
+  text-decoration-color: grey;
+}
+
+body{
+  background-color: #d9d9d9
+}
+
+a:hover{
+  background-color: white;
+  color: grey;
+  text-decoration-color: white;
+}
+
+.pizza-menu1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.pizza-menu2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.pizza1, .pizza2, .pizza3, .pizza4, .pizza5, .pizza6{
+
+  width: 30%;
+  text-align: center;
+  border: 1px black solid;
+}
+
+.cheese, .pep, .bbq, .deluxe, .meat, .hawaiian{
+  text-align: center;
+  padding-top: 5px;
+}
+
+
+h4{text-align: center;}
+
+p{text-align: center; width: 250px; padding-left:50px; }
+
+footer{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.container3{
+  display: flex;
+  flex-direction: row;
+  border: black solid 2px;
+  justify-content: space-between;
+}
+
+.information-container, .form1{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.form1{
+  display: flex;
+  width: 100%;
+}
+
+.review-container{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding-top: 5px;
+}
+
+.review{
+  border: solid grey 2px;
+  box-shadow: 4px 6px #888888;
+  background-color: #e6e6e6;
+  width: 60%;
+  padding-left: 5px;
+}
+.fas{
+  color: yellow;
+  padding-top: 10px;
+}
+
+h2{
+  padding-left: 10px;
+}
+
+.fab{
+  padding-left: 10px;
+  font-size: 25px;
+  color: red;
+  padding-bottom: 25px;
+}
+
+.phone-email, .emailus{
+  text-align: left;
+}
+@media screen and (max-width: 568px) {
+  .pizza-menu1, .pizza-menu2{
+    display: flex;
+    flex-direction: column;
+  }
+  .pizza1, .pizza2, .pizza3, .pizza4, .pizza5, .pizza6{
+    width: 100%; text-align: center;
+  }
+  p{padding-left: 100px;}
+  .menu-bar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .top-pic{
+    width: 100%;
+  }
+  .centered{
+    font-size: 50px;
+    top: 43%;
+  }
+  .container3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .information-container, .form1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .review-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .review{
+    display: block;
+    width: 100%;
+  }
+
+}

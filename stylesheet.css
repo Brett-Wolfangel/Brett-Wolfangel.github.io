@@ -1,0 +1,122 @@
+/* CSS Stylesheet
+Name: Brett Wolfangel
+Date: 7/26/2020 */
+
+
+.heading{
+  background-color: black;
+}
+
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  padding-top: 15px;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+
+h3 {
+  padding-top: 15px;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  color: #666666;
+  background-color: #e6e6e6;
+  text-align: center;
+  border-top: 1px solid black;
+
+}
+
+.titles{
+  text-align: center;
+  padding-right: 150px;
+}
+
+.brett-pic {
+  padding-right: 5px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+  z-index: 100;
+}
+
+.me-container, .education-container {
+  background-color: #e6e6e6;
+}
+
+.education-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+h4 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+p {
+  padding: 5px;
+}
+
+h5, h6 {
+  padding: 5px;
+}
+
+.brett-pic2{
+  float: left;
+  padding-right: 5px;
+}
+
+.info{
+  float: right;
+}
+
+.image-back{
+  background: url(images/code1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 155vh;
+  width: 100%;
+}
+
+.cover{
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 155vh;
+  width: 100%;
+  z-index: 0;
+}
+
+.container{
+  position: relative;
+  z-index: 1;
+  color: black;
+}
